@@ -8,3 +8,6 @@
     (make-rat (* -1 n) (* -1 d))
   (let [g (gcd n d)]
     (list (/ n g) (/ d g)))))
+
+(defn numer [rat] (first rat))
+(defn denom [rat] (first (rest rat)))
