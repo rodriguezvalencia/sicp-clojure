@@ -16,6 +16,10 @@
 (defn add [a b]
   (fn [f] (fn [x] (((a) f) (((b) f) x)) )))
 
+(((one) inc) 0)
+
+(((add three two) inc) 0)
+
 (defn pow [a b]
   (fn [f] (fn [x]
             (((b) (a)) x))))
