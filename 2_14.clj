@@ -1,4 +1,5 @@
-(:use ["2_7.clj"])
+(load-file "2_7.clj")
+(load-file "2_12.clj")
 
 (defn par1 [r1 r2]
   (div-interval (mul-interval r1 r2)

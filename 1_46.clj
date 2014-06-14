@@ -1,4 +1,5 @@
-(:use ["1_35.clj" "1_43.clj"])
+(load-file "1_35.clj")
+(load-file "1_43.clj")
 
 (defn improve-sqrt [x guess]
   (/ (+ guess (/ x guess)) 2) )

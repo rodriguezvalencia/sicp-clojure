@@ -1,4 +1,4 @@
-(:use ["2_7.clj"])
+(load-file "2_7.clj")
 
 (defn make-center-width [c w]
   (make-interval (- c w) (+ c w)))

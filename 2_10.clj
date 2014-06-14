@@ -1,4 +1,4 @@
-(:use ["2_8.clj"])
+(load-file "2_8.clj")
 
 (defn has-zero [x]
   (or (= 0 (upper-bound x)) (= 0 (lower-bound x))))

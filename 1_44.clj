@@ -1,4 +1,4 @@
-(:use ["1_43.clj"])
+(load-file "1_43.clj")
 
 (def dx 0.000001)
 

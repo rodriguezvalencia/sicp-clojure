@@ -1,4 +1,4 @@
-(:use "2_18.clj")
+(load-file "2_18.clj")
 
 (def x (list (list 1 2) (list 3 4)))
 

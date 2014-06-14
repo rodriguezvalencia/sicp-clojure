@@ -1,4 +1,4 @@
-(:use ["2_7.clj"])
+(load-file "2_7.clj")
 
 (defn mul-interval [x y]
   (let [p1 (* (lower-bound x) (lower-bound y))
